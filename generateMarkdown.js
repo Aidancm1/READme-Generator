@@ -1,5 +1,4 @@
 
-654 bytes
  // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -12,6 +11,14 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  My name is Aidan ${data.motivation}
+  The title of this project is ${data.title},
+  My motivation for this project was ${data.motivation},
+  I wanted to build this project because ${data.why},
+  This project solves the problem of ${data.problem},
+  In the process of building this project I learned ${data.learn},
+  This project includes a ${data.license} license.
+
 `;
 }
 module.exports = generateMarkdown;
