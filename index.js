@@ -35,7 +35,7 @@ const questions = [
         message: "What type of License do you want to include?",
         type: 'list',
         name: 'license',
-        choices: ['name', 'mit', '']
+        choices: ['apache', 'mit', 'isc']
     }
 ];
 
