@@ -61,12 +61,18 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  My name is Aidan ${data.motivation}
-  The title of this project is ${data.title},
-  My motivation for this project was ${data.motivation},
-  I wanted to build this project because ${data.why},
-  This project solves the problem of ${data.problem},
-  In the process of building this project I learned ${data.learn},
+  My name is Aidan ${data.motivation},  
+
+  The title of this project is ${data.title},  
+
+  My motivation for this project was ${data.motivation},  
+
+  I wanted to build this project because ${data.why},  
+
+  This project solves the problem of ${data.problem},  
+
+  In the process of building this project I learned ${data.learn},  
+  
   This project includes a ${data.license} license.
   ${renderLicenseSection(data.license)} 
   
