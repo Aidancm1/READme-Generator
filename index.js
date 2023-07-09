@@ -37,6 +37,17 @@ const questions = [
         type: 'list',
         name: 'license',
         choices: ['apache', 'mit', 'isc']
+    },
+    {
+        message: "What is your GitHub username?",
+        type: "input",
+        name: "github"
+
+    },
+    {
+        message: "Enter your email",
+        type: "input",
+        name: "email"
     }
 ];
 

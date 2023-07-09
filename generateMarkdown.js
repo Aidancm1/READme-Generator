@@ -75,6 +75,10 @@ function generateMarkdown(data) {
   
   This project includes a ${data.license} license.
   ${renderLicenseSection(data.license)} 
+
+  You can visit my Github profile at ${data.github}
+
+  You can ask any questions or submit input directly at ${data.email}
   
 `;
 }
